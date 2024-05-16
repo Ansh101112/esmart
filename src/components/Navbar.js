@@ -1,27 +1,43 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <>
       <nav className="flex justify-center space-x-6 py-4">
-        <a className="text-lg font-semibold hover:text-green-600" href="#">
+        <Link className="text-lg font-semibold hover:text-green-600" to="/">
           HOME
-        </a>
-        <a className="text-lg font-semibold hover:text-green-600" href="#">
+        </Link>
+        <Link
+          className="text-lg font-semibold hover:text-green-600"
+          to="/about"
+        >
           ABOUT
-        </a>
-        <a className="text-lg font-semibold hover:text-green-600" href="#">
+        </Link>
+        <Link
+          className="text-lg font-semibold hover:text-green-600"
+          to="/user/login"
+        >
           LOGIN
-        </a>
-        <a className="text-lg font-semibold hover:text-green-600" href="#">
+        </Link>
+        <Link
+          className="text-lg font-semibold hover:text-green-600"
+          to="/qrpage"
+        >
           SCAN QR
-        </a>
-        <a className="text-lg font-semibold hover:text-green-600" href="#">
+        </Link>
+        <Link
+          className="text-lg font-semibold hover:text-green-600"
+          to="/user/notifications"
+        >
           GET NOTIFIED
-        </a>
-        <a className="text-lg font-semibold hover:text-green-600" href="#">
+        </Link>
+        <Link
+          className="text-lg font-semibold hover:text-green-600"
+          to="/contact"
+        >
           CONTACT
-        </a>
+        </Link>
       </nav>
     </>
   );

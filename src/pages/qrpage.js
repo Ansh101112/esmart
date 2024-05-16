@@ -5,8 +5,8 @@ function QRCodeVerification() {
   return (
     <div className="bg-white">
       <Navbar></Navbar>
-      <section className="text-center py-12 flex flex-col md:flex-row items-center">
-        <div className="md:w-1/2 md:pl-8 md:order-first text-center justify-center mx-auto">
+      <section className="text-center py-12 flex flex-col items-center">
+        <div className="text-center justify-center mx-auto">
           <h1 className="text-5xl font-bold text-center">
             QR Code Verification
           </h1>
