@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
+      <Navbar></Navbar>
       <nav className="flex justify-center space-x-6 py-4">
         <Link className="text-lg font-semibold hover:text-green-600" to="/">
           HOME
